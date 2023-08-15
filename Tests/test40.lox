@@ -1,0 +1,1 @@
+isInstance("not a supported type", "3");

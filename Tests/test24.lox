@@ -1,0 +1,17 @@
+fun(a) {
+    print a;
+
+fun someFunc a) {
+    print a;
+
+fun someFunc ( {
+    print a;
+
+fun someFunc (a {
+    print a;
+
+fun someFunc (a) 
+    print a;
+
+fun someFunc (a) {
+    return a

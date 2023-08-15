@@ -1,0 +1,30 @@
+fun a(){}
+
+var userInput = input(); //User enters 2
+var userInput2 = input(); //User enters 2
+
+if(userInput == userInput2){
+    print "User input " + userInput;
+    print "Time: " + toString(clock()); //Print output varies.
+    print "Testing float to string: " + toString(1.023);
+    if(isInstance("string", userInput)){
+        print "Correct, userInput is a string";
+        print "Testing toString in boolean " + toString(true);
+        print "Testing toString in boolean false " + toString(false);
+        print toString(a);
+        print toString(toString) + toString(clock) + toString(isInstance) + toString(input);
+        if(isInstance("function", a)){
+            print "'a' is a function";
+            if(isInstance("function", clock)){
+                print "'clock' is function";
+                print isInstance("string", parseString("string", "a"));
+            }
+        }
+    }
+    else {
+        print "This should not print";
+    }
+}
+else {
+    print "This should not print";
+}

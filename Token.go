@@ -1,0 +1,50 @@
+package main
+
+type TokenType int
+
+const (
+	LEFT_PAREN = iota
+	NUMBER
+	CONST
+	RIGHT_PAREN
+	LEFT_BRACE
+	STRING
+	RIGHT_BRACE
+	COMMA
+	DOT
+	MINUS
+	PLUS
+	SEMICOLON
+	STAR
+	NOT_EQUAL
+	NOT
+	EQUAL_EQUAL
+	EQUAL
+	LESS_THAN
+	LESS_EQUAL
+	GREATER_THAN
+	GREATER_EQUAL
+	AND
+	ELSE
+	FALSE
+	FOR
+	FUN
+	IF
+	NIL
+	OR
+	PRINT
+	RETURN
+	TRUE
+	VAR
+	WHILE
+	MOD
+	SLASH
+	IDENTIFIER
+	EOF
+)
+
+type Token struct {
+	line      int
+	tokenType TokenType
+	lexeme    string
+}

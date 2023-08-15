@@ -1,0 +1,15 @@
+const var x = 3;
+var y = 4;
+print x;
+print y;
+{
+    var x = 4;
+    var y = 5;
+    x = 6;
+    print x;
+    print y;
+    {
+        const var y = 10;
+        print y;
+    }
+}

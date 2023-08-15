@@ -1,0 +1,224 @@
+test1.lox:
+4
+5
+6
+7
+8
+9
+10
+2
+done
+
+test2.lox:
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Too many potatoes.
+
+test3.lox:
+No words left
+Not lonely
+Lonely
+Nathan
+Not lonely
+Lonely
+Joel
+Nah
+Lonely
+
+test4.lox:
+[line 6] Unexpected character. $
+
+test5.lox:
+[line 22] Error at '}': Expect expression.
+
+test6.lox:
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Potato
+Too many potatoes.
+
+test7.lox:
+[line 25] Error at end: Expect ';' after value.
+
+test8.lox:
+Potato
+Potato
+Potato
+Potato
+Potato
+Too many potatoes.
+
+test9.lox:
+[line 5] Error at 'b': Expect ';' after expression.
+[line 13] Error at 'if': Expect ';' after variable declaration.
+[line 20] Error at '}': Expect ';' after expression.
+[line 25] Error at end: Expect ';' after value.
+
+test10.lox:
+test11.lox:
+Undefined variable 'c'
+[line 5] exit status 70
+
+test12.lox:
+Undefined variable 'c'
+[line 6] exit status 70
+
+test13.lox:
+Operands must be two numbers or two strings.
+[line 8] exit status 70
+
+test14.lox:
+Operands must be numbers.
+[line 8] exit status 70
+
+test15.lox:
+Operand must be a number.
+[line 8] exit status 70
+
+test16.lox:
+[line 2] Error at ';': Expect ')' after expression.
+
+test17.lox:
+[line 1] Error at 'true': Expect '(' after 'if'.
+[line 4] Error at 'print': Expect ')' after if condition.
+
+test18.lox:
+[line 3] Error at 'var': Expect '(' after 'for'.
+[line 5] Error at ';': Expect ')' after for clauses.
+[line 8] Error at end: Expect ';' after loop condition.
+
+test19.lox:
+[line 3] Error at ';': Expect variable name.
+[line 5] Error at 'print': Expect ';' after variable declaration.
+[line 6] Error at '=': Invalid assignment target.
+[line 8] Error at end: Expect ';' after expression.
+[line 8] Error at end: Expect '}' after block.
+
+test20.lox:
+[line 1] Error at 'true': Expect '(' after 'while'.
+[line 3] Error at ';': Expect ')' after condition.
+
+test21.lox:
+1
+a
+4
+
+test22.lox:
+7
+
+test23.lox:
+0
+1
+2
+3
+4
+5
+
+test24.lox:
+[line 1] Error at '(': Expect function name.
+[line 4] Error at 'a': Expect '(' after function name.
+[line 7] Error at '{': Expect parameter name.
+[line 10] Error at '{': Expect ')' after parameters.
+[line 14] Error at 'print': Expect '{' before function body.
+[line 18] Error at end: Expect ';' after return value.
+[line 18] Error at end: Expect '}' after block.
+
+test25.lox:
+No parameters
+
+test26.lox:
+Can only call functions
+[line 1] exit status 70
+
+test27.lox:
+Expected 2 arguments but got 3
+[line 5] exit status 70
+
+test28.lox:
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+
+test29.lox:
+Variable 'a' already exists.
+[line 2] exit status 70
+
+test30.lox:
+3
+4
+6
+5
+10
+
+test31.lox:
+This should print
+Cannot reassign constant variable 'x'.
+[line 4] exit status 70
+
+test32.lox:
+[line 1] Error at 'x': Expect 'var' keyword after 'const'.
+
+test33.lox:
+User input a
+Time: 1651541544
+Testing float to string: 1.023000
+Correct, userInput is a string
+Testing toString in boolean true
+Testing toString in boolean false false
+<fn a>
+<native fn><native fn><native fn><native fn>
+'a' is a function
+'clock' is function
+true
+
+test34.lox:
+Type 'not a mode' is not supported.
+[line 1] exit status 70
+
+test35.lox:
+Arguments are not strings.
+[line 1] exit status 70
+
+test36.lox:
+Cannot convert 'trues' to boolean.
+[line 1] exit status 70
+
+test37.lox:
+Cannot convert 'e' to float.
+[line 1] exit status 70
+
+test38.lox:
+Cannot convert '1.3' to int.
+[line 1] exit status 70
+
+test39.lox:
+Type argument must be string.
+[line 1] exit status 70
+
+test40.lox:
+Type 'not a supported type' is not supported.
+[line 1] exit status 70

@@ -1,0 +1,7 @@
+fun func1(a, b, c) {
+    print a;
+    print b;
+    print c;
+}
+
+func1(1, "a", "4");

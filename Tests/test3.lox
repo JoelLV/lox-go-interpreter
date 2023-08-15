@@ -1,0 +1,19 @@
+var word1 = "Joel";
+var word2 = "Nah";
+var word3 = "Lonely";
+{
+    var word1 = "Nathan";
+    var word2 = "Not lonely";
+    {
+        var word1 = "No words left";
+        print word1;
+        print word2;
+        print word3;
+    }
+    print word1;
+    print word2;
+    print word3;
+}
+print word1;
+print word2;
+print word3;

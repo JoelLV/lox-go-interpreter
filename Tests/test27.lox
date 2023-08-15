@@ -1,0 +1,5 @@
+fun noMoreThanTwo(a, b) {
+    print "Should not print";
+}
+
+noMoreThanTwo(1, 2, 3);

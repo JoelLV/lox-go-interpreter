@@ -1,0 +1,4 @@
+if true
+    print "Not good";
+if (true
+    print "Not good";

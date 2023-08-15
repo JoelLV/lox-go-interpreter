@@ -1,0 +1,11 @@
+fun recursiveFun(a) {
+    if(a <= 0) {
+        print a;
+    }
+    else {
+        recursiveFun(a - 1);
+        print a;
+    }
+}
+
+recursiveFun(5);

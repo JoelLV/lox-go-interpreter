@@ -1,0 +1,7 @@
+var a = 20;
+var b = 5;
+
+{
+    c = 19;
+    print c;
+}

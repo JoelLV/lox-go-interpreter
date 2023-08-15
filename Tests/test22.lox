@@ -1,0 +1,11 @@
+fun doubleNum(a) {
+    //Doubles a and returns the result.
+    return a * 2;
+}
+
+fun addNums(a, b) {
+    //Adds two numbers together.
+    return doubleNum(a) + b;
+}
+
+print addNums(2, 3);

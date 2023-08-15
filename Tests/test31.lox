@@ -1,0 +1,5 @@
+const var x = 3;
+
+print "This should print";
+x = 4;
+print "This should not print";
